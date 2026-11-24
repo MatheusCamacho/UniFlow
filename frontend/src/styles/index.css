@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-paper: #F5F3EE;
+  --color-surface: #FFFEFB;
+  --color-ink: #252723;
+  --color-muted: #73776F;
+  --color-accent: #365D73;
+  --color-accent-soft: #DFE8EC;
+  --color-border: #E3E0D8;
+  --color-danger: #A34E46;
+  --color-success: #52745D;
+}
+
+body {
+  font-family: "DM Sans", system-ui, -apple-system, sans-serif;
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+}
+
+h1, h2, .font-editorial {
+  font-family: "Source Serif 4", Georgia, serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

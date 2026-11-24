@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UniSenac Pelotas//Calendario Academico Demo//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Calendário Acadêmico — Demo UniFlow
+X-WR-TIMEZONE:America/Sao_Paulo
+BEGIN:VEVENT
+UID:unisenac-demo-aula-001@uniflow.local
+DTSTAMP:20261124T120000Z
+DTSTART;TZID=America/Sao_Paulo:20261202T190000
+DTEND;TZID=America/Sao_Paulo:20261202T220000
+SUMMARY:Aula — Automação e Programabilidade em Redes
+DESCRIPTION:Apresentações dos projetos finais e Live Demo em sala.
+LOCATION:Laboratório 302 — Campus Pelotas
+CATEGORIES:AULA
+END:VEVENT
+BEGIN:VEVENT
+UID:unisenac-demo-prova-002@uniflow.local
+DTSTAMP:20261124T120000Z
+DTSTART;TZID=America/Sao_Paulo:20261209T190000
+DTEND;TZID=America/Sao_Paulo:20261209T210000
+SUMMARY:Avaliação Final — Engenharia de Software
+DESCRIPTION:Prova presencial cobrindo arquitetura, testes e entrega contínua.
+LOCATION:Sala 204 — Campus Pelotas
+CATEGORIES:PROVA
+END:VEVENT
+BEGIN:VEVENT
+UID:unisenac-demo-evento-003@uniflow.local
+DTSTAMP:20261124T120000Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:Semana de Integração Acadêmica
+DESCRIPTION:Evento institucional de encerramento do semestre letivo.
+LOCATION:Auditório Principal
+CATEGORIES:EVENTO
+END:VEVENT
+END:VCALENDAR

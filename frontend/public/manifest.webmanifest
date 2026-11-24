@@ -1,0 +1,17 @@
+{
+  "name": "UniFlow — Personal Academic Management",
+  "short_name": "UniFlow",
+  "description": "Organização acadêmica pessoal com sincronização Google Calendar e ICS.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F3EE",
+  "theme_color": "#365D73",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
